@@ -1,0 +1,6 @@
+service : {
+  getNewQuote: () -> (text, text);
+  isTimerRunning: () -> (bool) query;
+  startTimer: (nat) -> (text);
+  stopTimer: () -> (text);
+}
